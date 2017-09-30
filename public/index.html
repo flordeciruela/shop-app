@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Don Pepe</title>
+    <link rel="shortcut icon" href="assets\images\favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/vendor/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+
+    <header class="navbar-fixed">
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!" class="spanish">Español</a></li>
+        <li><a href="#!" class="english">English</a></li>
+      </ul>
+      <nav class="nav-extended">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><i class="material-icons logo-css">store</i></a>
+          <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="empty"><i class="large material-icons">shopping_cart</i></li>
+            <li class="hide"><a class="cart" href="#cart-container"><i class="large material-icons">shopping_cart</i><span class="cart-item"></span></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Idioma<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="login modal-trigger" href="#modal1">Iniciar sesión</a></li>
+          </ul>
+          <ul id="slide-out" class="side-nav">
+            <li class="hide"><a class="cart" href="#cart-container"><i class="large material-icons">shopping_cart</i><span class="cart-item"></span></a></li>
+            <li><a class="login modal-trigger" href="#modal1">Iniciar sesión</a></li>
+            <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                <li>
+                  <a class="collapsible-header">Idioma<i class="material-icons right">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li class="spanish"><a href="#!">Español</a></li>
+                      <li class="english"><a href="#!">English</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="root"></div>
+
+    <div id="modal1" class="modal">
+      <form class="row" id="login-form">
+        <h4 class="center">Ingresa</h4>
+        <div class="input-field col s10 offset-s1">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="input-user" type="text" class="validate">
+          <label for="input-user">Usuario</label>
+        </div>
+        <div class="input-field col s10 offset-s1">
+          <i class="material-icons prefix">vpn_key</i>
+          <input id="input-pass" type="password" class="validate">
+          <label for="input_pass">Contraseña</label>
+        </div>
+        <div class="center col s12">
+          <h6 class="errorText"></h6>
+          <a class="btn-floating btn-large modal-action modal-close waves-effect disabled" id="login">
+            <i class="large material-icons">check</i>
+          </a>
+        </div>
+      </form>
+    </div>
+    <!--
+    <div class="row">
+      <div class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="use" type="email" name="text">
+            <label for="email">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">phone</i>
+            <input id="clave" type="password" name="password">
+            <label for="pass">Pass</label>
+          </div>
+          <button type="button" name="button" id="login-a" class="btn">Enviar</button>
+          <button type="button" name="button" id="logout-a" class="btn">Salir</button>
+        </div>
+      </div>
+    </div>
+  -->
+
+    <script src="assets/js/vendor/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+    <script>
+    const config = {
+      apiKey: "AIzaSyApdmtOju1yEOa_eQN6je9KVoQtzdRy6bY",
+      authDomain: "don-pepe-23d4b.firebaseapp.com",
+      databaseURL: "https://don-pepe-23d4b.firebaseio.com",
+      projectId: "don-pepe-23d4b",
+      storageBucket: "",
+      messagingSenderId: "170150342426"
+    };
+    firebase.initializeApp(config);
+
+    </script>
+    <script src="assets/js/utils/database.js" charset="utf-8"></script>
+    <script src="assets/js/vendor/materialize.min.js" charset="utf-8"></script>
+
+    <script src="assets/js/utils/get-json.js" charset="utf-8"></script>
+    <script src="assets/js/components/navbar.js" charset="utf-8"></script>
+    <script src="assets/js/components/hero.js" charset="utf-8"></script>
+    <script src="assets/js/components/grid.js" charset="utf-8"></script>
+    <script src="assets/js/components/footer.js" charset="utf-8"></script>
+    <script src="assets/js/components/cart.js" charset="utf-8"></script>
+    <script src="assets/js/components/modal.js" charset="utf-8"></script>
+    <script src="assets/js/components/stores-list.js" charset="utf-8"></script>
+    <script src="assets/js/components/store.js" charset="utf-8"></script>
+    <script src="assets/js/index.js" charset="utf-8"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "name": "don-pepe-app",
+  "version": "1.0.0",
+  "description": "Tienda virtual",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flordeciruela/shop-app.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "npm",
+    "SPA",
+    "Javascript"
+  ],
+  "author": "Wendy Reyes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flordeciruela/shop-app/issues"
+  },
+  "homepage": "https://github.com/flordeciruela/shop-app#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-add-src": "^0.2.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2"
+  }
+}
