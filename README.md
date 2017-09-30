@@ -1,6 +1,6 @@
 # Tienda Don Pepe
 
-Proyecto prueba desarrollado para Anda.pe
+Proyecto prueba desarrollado para Anda.pe.
 Muestra el horario de atención, direcciones, el stock por producto y permite comprar online.
 
 ## Requerimientos:
