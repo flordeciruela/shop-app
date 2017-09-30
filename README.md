@@ -30,4 +30,9 @@ Muestra el horario de atención, direcciones, el stock por producto y permite co
 
 - Se ha manejado una condicional switch para mostrar las pantallas segun el comportamiento del usuario.
 
+## Demo
 
+- Los datos de usuario para acceder son:
+
+  ### username: usuario1
+  ### password: pass1
