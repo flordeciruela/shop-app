@@ -1,6 +1,6 @@
 # Tienda Don Pepe
 
-Proyecto prueba desarrollado para Anda Perú.
+Proyecto prueba desarrollado para Anda.pe
 Muestra el horario de atención, direcciones, el stock por producto y permite comprar online.
 
 ## Requerimientos:
@@ -22,7 +22,7 @@ Muestra el horario de atención, direcciones, el stock por producto y permite co
 
 - Si se selecciona tienda virtual se muestan los productos con un boton call to action habilitado para agregar al carrito de compras, si el usuario no está sesionado se abre un modal para autenticarse antes de continuar, se validan los campos con condicionales y se habilita el carrito, que a nivel de código es un arreglo de objetos.
 
-- Cuando se agrega un prdoucto el carrito muesta un marcador con la cantidad de productos agregados, si un producto se repitiera, no lo vuelve a agregar, sino que se almacena el número de veces que fue agregado y realiza un recálculo del precio por la cantidad de unidades.
+- Cuando se agrega un producto el carrito muesta un marcador con la cantidad de productos agregados, si un producto se repitiera, no lo vuelve a agregar, sino que se almacena el número de veces que fue agregado y realiza un recálculo del precio por la cantidad de unidades.
 
 - El carrito muestra una lista de productos y el precio total, también se puede modificar la cantidad de unidades por un producto y actualizar el precio.
 
