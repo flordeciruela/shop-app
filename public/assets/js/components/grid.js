@@ -45,11 +45,9 @@ const Grid = (update) => {
         if (saved) {
           saved.quantity++;
           article.totalPrice = (parseFloat(article.price) * parseFloat(article.quantity)).toFixed(2);
-          console.log(article.totalPrice);
         } else {
           article.quantity = 1;
           article.totalPrice = article.price;
-          console.log(article.totalPrice);
           state.cartItems.push(article);
         }
 
@@ -60,4 +58,4 @@ const Grid = (update) => {
   }
 
   return container;
-}
+};

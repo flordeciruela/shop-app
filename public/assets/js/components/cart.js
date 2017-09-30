@@ -117,46 +117,5 @@ const ModalCart = (update) => {
     update();
   });
 
-  /*
-  const h5 = $('<h5 class="center">Estás comprando:</h5>');
-  const ul = $('<ul class="collection"></ul>');
-  const footer = $('<div class="modal-content center"></div>');
-  const btnConfirm = $('<a href="#!" class="waves-effect btn">Confirmar</a>');
-  const btnBack = $('<a href="#!" class="modal-action modal-close waves-effect btn">Volver</a>');
-  const payment = $('<div class="modal-content center"></div>');
-  const spanMethodP = $('<span>Pago con: '+state.payMethod+'</span>');
-  const spanResult = $('<span></span>');
-
-  modal.append(row);
-  modal.append(payment);
-  modal.append(footer);
-  row.append(h5);
-  row.append(ul);
-  payment.append(spanMethodP);
-  payment.append(spanResult);
-  footer.append(btnConfirm);
-  footer.append(btnBack);
-  let sumaModal = 0;
-
-  for (let elem in state.cartItems) {
-    let li = $('<li class="collection-item avatar"></li>');
-    let title = $('<span class="title">'+state.cartItems[elem].name+'</span>');
-    let pConfirmQ = $('<p>Cantidad: '+state.cartItems[elem].quantity+'</p>');
-    let spanConfirmP = $('<span class="secondary-content">S/.'+parseFloat(state.cartItems[elem].totalPrice).toFixed(2)+'</span>');
-
-    ul.append(li);
-    li.append(title);
-    li.append(pConfirmQ);
-    li.append(spanConfirmP);
-    sumaModal = sumaModal + parseFloat(state.cartItems[elem].totalPrice);
-  }
-
-  spanResult.text('Total: S/.'+ parseFloat(state.totalPrice).toFixed(2));
-
-  btnConfirm.on('click', (e) => {
-    //modal-action modal-close
-
-  });
-  */
   $('.root').append(modal);
 }

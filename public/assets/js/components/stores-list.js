@@ -23,8 +23,6 @@ const StoresList = (update) => {
   $(document).on('change', '#storesSelect', function(event) {
     state.screenView = "Store";
     state.storeSelected = $(this).val();
-    console.log(state.screenView);
-    console.log(state.storeSelected);
     update();
   });
 

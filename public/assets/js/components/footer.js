@@ -28,5 +28,4 @@ const Footer = (update) => {
   container.append(pCopyright);
 
   return container;
-
-}
+};

@@ -3,14 +3,12 @@
 const render = (root) => {
   root.empty();
   const wrapper = $('<div class="wrapper"></div>');
-  //wrapper.append(Navbar);
   NavFunction(_ => render(root));
   Modal(_ => render(root));
   wrapper.append(Hero(_ => render(root)));
 
 	switch(state.screenView) {
     case null:
-      //wrapper.append(Navbar(_ => render(root)));
       wrapper.append(StoresList(_ => render(root)));
       wrapper.append(Grid(_ => render(root)));
       break;
@@ -39,32 +37,4 @@ const state = {
 $( _ => {
   $(".button-collapse").sideNav();
   getJson();
-
-  /*
-  $('#login-a').on('click', (e) => {
-    let user = $('#use').val() + '@usuario.com';
-    let pass = $('#clave').val() + 0;
-    console.log(user);
-    console.log(pass);
-    firebase.auth().signInWithEmailAndPassword(user, pass)
-      .then(function(result) {
-        console.log(result);
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-
-
-  });
-
-  $('#logout-a').on('click', (e) => {
-
-    firebase.auth().signOut().then(function() {
-      console.log("cerraste");
-    }).catch(function(error) {
-      console.log("error al cerrar");
-    });
-  });
-  */
-
 });

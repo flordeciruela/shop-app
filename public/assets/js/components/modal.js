@@ -31,4 +31,4 @@ const Modal = (update) => {
     }
   });
 
-}
+};
