@@ -20,7 +20,5 @@ const Hero = (update) => {
   inputGroup.append(input);
   inputGroup.append(label);
 
-  //`${state.dataBase.app}`
-  //p.text(state.dataBase.app);
   return container;
 }

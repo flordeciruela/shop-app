@@ -289,6 +289,14 @@ nav .dropdown-content li:hover {
   color: gray;
 }
 
+#payment.modal {
+  width: 90%;
+}
+
+#payment.modal .row {
+  margin: 2rem auto;
+}
+
 #payment .modal-close.btn {
   background-color: #F9D643;
 }
@@ -361,6 +369,10 @@ footer a:hover {
     padding: 4rem 0 2rem 2.5rem;
     text-align: left;
     color: #7067CF;
+  }
+
+  #payment.modal {
+    width: 30%;
   }
 
   .item-css h5 {

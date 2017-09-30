@@ -98,13 +98,15 @@ const Cart = (update) => {
 
 const ModalCart = (update) => {
   const modal = $('<div id="payment" class="modal"></div>');
-  const row = $('<div class="modal-content center"></div>');
+  const row = $('<div class="row center"></div>');
+  const container = $('<div></div>');
   const h5 = $('<h5>Compra realizada!</h5>');
   const btnClose = $('<a href="#!" class="modal-action modal-close waves-effect btn">Cerrar</a>');
 
   modal.append(row);
-  row.append(h5);
-  row.append(btnClose);
+  row.append(container);
+  container.append(h5);
+  container.append(btnClose);
 
   btnClose.on('click', (e) => {
     state.screenView = null;

@@ -6,7 +6,7 @@ const Store = (update) => {
   const row = $('<div class="row row-items z-depth-1"></div>');
   const title = $('<h4 class="center">Tienda '+store.district+'</h4>');
   const pBack = $('<p class="center"></p>');
-  const aBack = $('<a href="#"><i class="material-icons medium back-btn-css">reply</i></a>');
+  const aBack = $('<a href="#" title="Volver"><i class="material-icons medium back-btn-css">reply</i></a>');
   const collection = $('<div class="row row-collection"></div>');
   const ul = $('<ul class="collection"></ul>');
   const li = $('<li class="collection-item avatar"></li>');

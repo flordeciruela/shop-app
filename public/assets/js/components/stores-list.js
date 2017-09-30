@@ -6,7 +6,7 @@ const StoresList = (update) => {
   const h2 = $('<h5 class="center">ELIGE UNA TIENDA PARA CONSULTAR STOCK</h5>');
   const contentSelect = $('<div class="col s12 l4 offset-l4"></div>');
   const select = $('<select id="storesSelect" class="browser-default"></select>');
-  const disabledOpt = $('<option value="">Tienda virtual (Sólo Lima)</option>');
+  const disabledOpt = $('<option value="">Tienda virtual (Lima)</option>');
 
   container.append(row);
   row.append(h2);

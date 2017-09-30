@@ -1,0 +1,215 @@
+{
+  "metadata" : {
+    "app" : "store",
+    "name" : "Bodega Don Pepe",
+    "products" : [ {
+      "id" : "1",
+      "image" : "cookies.jpg",
+      "name" : "Galletas",
+      "price" : "0.50",
+      "stock" : "500"
+    }, {
+      "id" : "2",
+      "image" : "tec-cola.jpg",
+      "name" : "Gaseosa Tec-Cola",
+      "price" : "2.00",
+      "stock" : "800"
+    }, {
+      "id" : "3",
+      "image" : "chocolate.jpg",
+      "name" : "Chocolates",
+      "price" : "1.00",
+      "stock" : "900"
+    }, {
+      "id" : "4",
+      "image" : "ch-2.png",
+      "name" : "Libro Crucigramas",
+      "price" : "15.00",
+      "stock" : "600"
+    }, {
+      "id" : "5",
+      "image" : "flw.jpg",
+      "name" : "4 Letter Words",
+      "price" : "15.00",
+      "stock" : "800"
+    }, {
+      "id" : "6",
+      "image" : "ch-2.png",
+      "name" : "Employee",
+      "price" : "1.00",
+      "stock" : "600"
+    } ],
+    "slogan" : "A tu alcance.",
+    "stores" : [ {
+      "address" : "Av. El Sol 932 Espinar, Cusco",
+      "district" : "Cusco",
+      "products" : [ {
+        "id" : "1",
+        "image" : "cookies.jpg",
+        "name" : "Galletas",
+        "price" : "0.50",
+        "stock" : "30"
+      }, {
+        "id" : "2",
+        "image" : "tec-cola.jpg",
+        "name" : "Gaseosa Tec-Cola",
+        "price" : "2.00",
+        "stock" : "50"
+      }, {
+        "id" : "3",
+        "image" : "chocolate.jpg",
+        "name" : "Chocolates",
+        "price" : "1.00",
+        "stock" : "50"
+      }, {
+        "id" : "4",
+        "image" : "book.jpg",
+        "name" : "Libro Crucigramas",
+        "price" : "15.00",
+        "stock" : "20"
+      }, {
+        "id" : "5",
+        "image" : "flw.jpg",
+        "name" : "4 Letter Words",
+        "price" : "15.00",
+        "stock" : "80"
+      }, {
+        "id" : "6",
+        "image" : "ch-2.png",
+        "name" : "Employee",
+        "price" : "1.00",
+        "stock" : "60"
+      } ],
+      "schedule" : "L-D, 6:00 - 23:00"
+    }, {
+      "address" : "Jr. Libertad 542 Pucallpa, Ucayali",
+      "district" : "Pucallpa",
+      "products" : [ {
+        "id" : "1",
+        "image" : "cookies.jpg",
+        "name" : "Galletas",
+        "price" : "0.50",
+        "stock" : "25"
+      }, {
+        "id" : "2",
+        "image" : "tec-cola.jpg",
+        "name" : "Gaseosa Tec-Cola",
+        "price" : "2.00",
+        "stock" : "70"
+      }, {
+        "id" : "3",
+        "image" : "chocolate.jpg",
+        "name" : "Chocolates",
+        "price" : "1.00",
+        "stock" : "30"
+      }, {
+        "id" : "4",
+        "image" : "book.jpg",
+        "name" : "Libro Crucigramas",
+        "price" : "15.00",
+        "stock" : "25"
+      }, {
+        "id" : "5",
+        "image" : "flw.jpg",
+        "name" : "4 Letter Words",
+        "price" : "15.00",
+        "stock" : "46"
+      }, {
+        "id" : "6",
+        "image" : "ch-2.png",
+        "name" : "Employee",
+        "price" : "1.00",
+        "stock" : "20"
+      } ],
+      "schedule" : "L-D, 6:00 - 23:00"
+    }, {
+      "address" : "Jr. Ayacucho 270 Puno",
+      "district" : "Puno",
+      "products" : [ {
+        "id" : "1",
+        "image" : "cookies.jpg",
+        "name" : "Galletas",
+        "price" : "0.50",
+        "stock" : "40"
+      }, {
+        "id" : "2",
+        "image" : "tec-cola.jpg",
+        "name" : "Gaseosa Tec-Cola",
+        "price" : "2.00",
+        "stock" : "50"
+      }, {
+        "id" : "3",
+        "image" : "chocolate.jpg",
+        "name" : "Chocolates",
+        "price" : "1.00",
+        "stock" : "35"
+      }, {
+        "id" : "4",
+        "image" : "book.jpg",
+        "name" : "Libro Crucigramas",
+        "price" : "15.00",
+        "stock" : "15"
+      }, {
+        "id" : "5",
+        "image" : "flw.jpg",
+        "name" : "4 Letter Words",
+        "price" : "15.00",
+        "stock" : "58"
+      }, {
+        "id" : "6",
+        "image" : "ch-2.png",
+        "name" : "Employee",
+        "price" : "1.00",
+        "stock" : "67"
+      } ],
+      "schedule" : "L-D, 6:00 - 23:00"
+    }, {
+      "address" : "La Plata 30 Chiclayo, Lambayeque",
+      "district" : "Chiclayo",
+      "products" : [ {
+        "id" : "1",
+        "image" : "cookies.jpg",
+        "name" : "Galletas",
+        "price" : "0.50",
+        "stock" : "63"
+      }, {
+        "id" : "2",
+        "image" : "tec-cola.jpg",
+        "name" : "Gaseosa Tec-Cola",
+        "price" : "2.00",
+        "stock" : "32"
+      }, {
+        "id" : "3",
+        "image" : "chocolate.jpg",
+        "name" : "Chocolates",
+        "price" : "1.00",
+        "stock" : "35"
+      }, {
+        "id" : "4",
+        "image" : "book.jpg",
+        "name" : "Libro Crucigramas",
+        "price" : "15.00",
+        "stock" : "18"
+      }, {
+        "id" : "5",
+        "image" : "flw.jpg",
+        "name" : "4 Letter Words",
+        "price" : "15.00",
+        "stock" : "55"
+      }, {
+        "id" : "6",
+        "image" : "ch-2.png",
+        "name" : "Employee",
+        "price" : "1.00",
+        "stock" : "79"
+      } ],
+      "schedule" : "L-D, 6:00 - 23:00"
+    } ],
+    "users" : [ {
+      "cart" : [ "" ],
+      "password" : "pass1",
+      "username" : "usuario1"
+    } ],
+    "ver" : "0.0.1"
+  }
+}
