@@ -26,9 +26,9 @@ Muestra el horario de atención, direcciones, el stock por producto y permite co
 
 - El carrito muestra una lista de productos y el precio total, también se puede modificar la cantidad de unidades por un producto y actualizar el precio.
 
-- Se puede vaciar el carrito y regresar nuevamente a la pantalla de inicio.
+- Se puede vaciar el carrito y así regresar nuevamente a la pantalla de inicio.
 
-- Se ha manejado una condicional switch para mostrar las pantallas segun el comportamiento del usuario.
+- Se ha manejado una estructura condicional switch para mostrar las pantallas según el comportamiento del usuario.
 
 ## Demo
 
