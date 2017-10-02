@@ -102,18 +102,6 @@ nav span.cart-item {
   padding: 1px 5px;
 }
 
-nav .dropdown-content {
-  background-color: #8a93de;
-}
-
-nav .dropdown-content li>a {
-  color: #FFFFFF;
-}
-
-nav .dropdown-content li:hover {
-  background-color: #877cff;
-}
-
 .side-nav {
   padding-top: 2rem;
 }
