@@ -11,8 +11,10 @@ Muestra el horario de atención, direcciones, el stock por producto y permite co
 ## Descripcion General
 
 - Se desarrolló como aplicación web del tipo single-page application (SPA) utilizando Javascript nativo y Jquery.
+- En la ruta "app/assets/js" se encuentran los scripts de las pantallas y funciones de la web.
 - Para aplicar estilos se utilizó CSS y el framework Materialize.
 - La API se provee de Firebase para traer y sincronizar datos desde la nube a través de un objeto JSON en tiempo real.
+- En "app/assets/js/utils/database.js" se genera la sincronización con Firebase.
 
 ## Desarrollo
 
