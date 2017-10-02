@@ -6,18 +6,6 @@ const NavFunction = (update) => {
     update();
   });
 
-  $('.spanish').on('click', (e) => {
-    state.language = "spanish";
-    $('.button-collapse').sideNav('hide');
-    update();
-  });
-
-  $('.english').on('click', (e) => {
-    state.language = "english";
-    $('.button-collapse').sideNav('hide');
-    update();
-  });
-
   $('.cart').on('click', (e) => {
     $('.button-collapse').sideNav('hide');
     if (state.cartItems.length > 0) {

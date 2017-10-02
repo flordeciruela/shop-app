@@ -27,7 +27,6 @@ const state = {
   dataBase: null,
   screenView: null,
   storeSelected: null,
-  language: null,
   userOnline: null,
   cartItems: [],
   payMethod: null,

@@ -23,7 +23,6 @@ const Modal = (update) => {
         $('.errorText').text('');
         $('nav .modal-trigger').addClass('logout');
         $('.logout').removeClass('modal-trigger');
-        console.log(state.userOnline);
       } else {
         $('#login').removeClass('modal-close');
         $('.errorText').text('Usuario o contraseña incorrectos');
